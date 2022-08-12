@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+    width: 100%;
+
+}
+body{
+    height: 100%;
+    width: 100%;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+}
+#content{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://images.glints.com/unsafe/glints-dashboard.s3.amazonaws.com/company-logo/b5290ca817f6b35025bd8b8660a9db2b.png);
+    background-repeat: no-repeat;
+}
+#main-content{
+    
+    text-align: center;
+    height: 600px;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    
+    
+    
+}
+input{
+    margin-bottom: 10px;
+}
+button{
+    width: 160px;
+    height: 30px;
+    color: black;
+    font-size: 18px;
+    padding: 5px;
+}
+#second-content{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#second-content p{
+    color: aliceblue;
+}
+img{
+    width: 255px;
+    height: 100px;
+
+}
+.paragraph {
+    text-align: center;
+    padding: 10px;
+}
+.paragraph p{
+    padding: 5px;
+}
+
+
+
+   

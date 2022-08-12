@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+#menu-content{
+    background: #000;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    height: 75px;
+    padding: 0px 15px;
+    position: fixed;
+
+}
+.menu-top {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items:center ;
+
+}
+.logo{
+    flex: 1;
+}
+.menu-top li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 15px 10px;
+    
+}
+.menu a:hover{
+    background-color: red;
+}
+.login{
+    background: #0080ff;
+    border: 1px royalblue solid;
+    padding: 10px 15px;
+    margin-right: 10px;
+    border-radius: 15px;
+    
+    
+}
+.sign-Up{
+    border: 1px #0080ff solid;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+#fist-content{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: flex-end;
+    background-image: url(https://w.ladicdn.com/s1750x1000/5cefbc1ed062e8345a24dfe8/ld-banner-web-2-sua-20211217115455.png);
+    align-items: center; 
+    flex-direction: column;
+    text-align: center;
+    
+}
+#fist-content h1{
+    color:#fff;
+    font-size: 40px;
+    padding-bottom: 15px;
+
+}
+#fist-content p{
+    color: #FFFACD;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+#second-content{
+    background-image: linear-gradient(#FFA07A, #E9967A);
+    width: 100%;
+    height: 160vh;
+    padding: 100px 20px;
+    text-align: center;
+    
+
+}
+#second-content h2{
+    text-align: center;
+    font-size: 42px;
+    color:#fff;
+    margin-bottom: 60px;
+    font-style: italic;
+}
+.projects-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin-bottom: 40px;
+   
+
+}
+.project-image{
+    width: 380px;
+    height: 290px;
+    display: block;
+   
+
+}
+.project-title{
+    text-align: center;
+    padding: 20px 5px;
+    background-color: #000;
+    text-decoration: none;
+    color: #fff;
+    width: 380px;
+    height: 68px;
+    font-size: 20px;
+}
+.project-title:hover{
+    background-color: 	#800000;
+
+}
+.projects-content a{
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+.button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    padding: 20px 40px;
+    margin-bottom: 40px;
+}
+#second-content a:hover{
+    background-color: red;
+}
+
+#third-content{
+    display: flex;
+    background-image: url(https://static.ybox.vn/2020/10/4/1601523126475-Mindx.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 130vh;
+    flex-direction: column;
+    
+   
+}
+.third-content-headding{
+    color: #fff;
+    padding-right: 950px;
+    padding-top: 225px;
+    text-align: center;
+    line-height: 50px;
+
+    
+   
+}
+.third-content-logo{
+
+      padding-left: 35px;
+    padding-top: 40px;
+}
+.third-content-logo a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+
+}
+.fa-brands{
+    height: 24px;
+    width: 23px;
+}
+.fa-solid{
+    height: 24px;
+    width: 23px;
+}
+.finish-content{
+    background-color: #000;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.finish-content p{
+    padding: 10px;
+    
+
+}
+
+
+
+
+
+
+
+
